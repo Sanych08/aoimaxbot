@@ -1,21 +1,23 @@
 # aiomaxbot
 
-A Python package for AIOMaxBot.
+Пакет Python для AIOMaxBot.
 
-## Installation
+## Установка
 
 ```bash
 pip install aiomaxbot
 ```
 
-## Usage
+## Использование
 
 ```python
 import aiomaxbot
 
-# Use the package
+# Использование пакета
+print(aiomaxbot.hello())
+print(await aiomaxbot.async_hello())
 ```
 
-## License
+## Лицензия
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Этот проект лицензирован в соответствии с лицензией MIT - подробности см. в файле [LICENSE](LICENSE).

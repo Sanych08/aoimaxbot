@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "aiomaxbot"
 version = "0.1.0"
-description = "A Python package for AIOMaxBot"
+description = "Пакет Python для AIOMaxBot"
 authors = [
     {name = "Your Name", email = "your.email@example.com"}
 ]
