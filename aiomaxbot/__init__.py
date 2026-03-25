@@ -1,9 +1,5 @@
-"""
-aiomaxbot - Пакет Python для AIOMaxBot.
-"""
+from .bot import Bot
+from .dispatcher import Dispatcher, Router
+from .filters import F
 
-def hello():
-    return "Hello from aiomaxbot!"
-
-async def async_hello():
-    return "Async Hello from aiomaxbot!"
+__all__ = ["Bot", "Dispatcher", "F", "Router"]
